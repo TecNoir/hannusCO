@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+#cssmenu {
+	background: #f96e5b;
+	width: auto;
+	height: 100px;
+}
+#cssmenu ul {
+		list-style: none;
+		text-align: center;
+		margin: 0;
+		padding-top: 0;
+		line-height: 1;
+		display: block;
+}
+
+#cssmenu ul li {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+}
+
+#cssmenu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 35px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 24px;
+	position: relative;
+}
+#cssmenu ul li a:hover {
+	color: #333333;
+}
+
+#submenus ul {
+	position: absolute;
+	top: 107px;
+	left:320px;
+	display: inline-block;
+	width: 210px;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+
+	opacity: 0;
+	background: #1f2024;
+
+	-webkit-transition: opacity .55s ease .1s;
+	-moz-transition: opacity .55s ease .1s;
+	-o-transition: opacity .55s ease .1s;
+	-ms-transition: opacity .55s ease .1s;
+	transition: opacity .55s ease .1s;
+		}
+
+#submenus li:hover > ul {opacity: 1;}
+
+#submenus ul li a {
+	text-align: center;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 10px 10px;
+	font-size: 17px;
+}
+
+#submenus ul.sub2 {
+	position: absolute;
+	top: 107px;
+	left:520px;
+	display: inline-block;
+	width: 210px;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+
+	opacity: 0;
+	background: #1f2024;
+}
+#submenus.sub2 li:hover > ul {opacity: 1;}
+
+#submenus ul.sub3 {
+	position: absolute;
+	top: 107px;
+	left:700px;
+	display: inline-block;
+	width: 210px;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+
+	opacity: 0;
+	background: #1f2024;
+}
+#submenus.sub3 li:hover > ul {opacity: 1;}
+
+
+
+
+
+
+

@@ -1,0 +1,350 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+
+#cssmenu {
+  background: #00bffF;
+  width: 100%;
+  height: 100px;
+}
+
+#cssmenu ul {
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#cssmenu ul li {
+  display: inline-block;
+}
+
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 30px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+  position: relative;
+  
+}
+@media (max-width: 1100px)
+#cssmenu ul li a {
+  padding: 15px 12px;
+  font-weight: 300;
+  font-size: 16px;
+  
+}
+
+
+
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+
+#submenus ul {
+  position: absolute;
+  top: 100px;
+  left: 22%;
+  display: inline-block;
+  width: 180px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  opacity: 0;
+  background: #4682b4;
+  visibility: hidden;
+
+
+/*Einblenden der Dropdown-Menüs (submenu)*/
+  -webkit-transition: opacity .55s ease .1s;
+  -moz-transition: opacity 1.0s ease .1s;
+  -o-transition: opacity .55s ease .1s;
+  -ms-transition: opacity .55s ease .1s;
+  transition: opacity 1.0s ease .2s;
+    }
+
+#submenus li:hover > ul {opacity: 1; visibility: visible;}
+
+#submenus ul li a {
+  text-align: center;
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  font-size: 17px;
+  text-transform: capitalize;
+  visibility: visible;
+
+
+}
+
+
+#submenus ul.sub2 {
+  position: absolute;
+  top: 100px;
+  left: 32vw;
+  display: inline-block;
+  width: 215px;
+  height: 265px;
+  margin: 0;
+  padding: 0;
+
+  opacity: 0;
+  background: #4682b4;
+}
+#submenus.sub2 li:hover > ul {opacity: 1;}
+
+#submenus ul.sub3 {
+  position: absolute;
+  top: 100px;
+  left: 40.5vw;
+  display: inline-block;
+  width: 210px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+
+  opacity: 0;
+  background: #4682b4;
+}
+#submenus.sub3 li:hover > ul {opacity: 1;}
+
+#submenus ul.sub4 {
+  position: absolute;
+  top: 100px;
+  left:52vw;
+  display: inline-block;
+  width: 210px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+
+  opacity: 0;
+  background: #4682b4;
+}
+#submenus.sub4 li:hover > ul {opacity: 1;}
+
+#submenus ul.sub5 {
+  position: absolute;
+  top: 100px;
+  left:65vw;
+  display: inline-block;
+  width: 270px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+
+  opacity: 0;
+  background: #4682b4;
+}
+#submenus.sub5 li:hover > ul {opacity: 1;}
+
+
+.full-width {
+    background-color: white;
+    overflow: hidden;
+    
+
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1500px;
+      
+}
+
+.main-text {
+
+      max-width: 1500px;
+      width: 65vw;
+      margin: 0 auto;
+      padding: 2em;
+      color: #4682b4;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.4em;
+      line-height: 1.6;
+}
+@media (max-width: 1100px)
+.main-text {
+      padding: 0.5em;
+}
+
+
+p {
+  margin: 1em;
+
+
+}
+
+h1 {
+  font-size: 2em;
+  
+  
+
+}
+
+/*#main { 
+        padding: 10px;
+        padding-bottom: 80px;
+        margin-top: 100px;
+        margin-left: 18%;
+        text-transform: lowercase;
+        text-align: center;
+        text-shadow: 3px, 3px, 5px #1e90ff;
+        font-size: 3.5rem;
+        font-weight: normal;
+        color: #00bffF;
+        
+
+}*/
+
+/*Blog*/
+#blog {
+  
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    height: 500px;
+    width: 500px;
+
+}
+
+.pdf_link {
+    
+      color: #00bffF;
+      text-transform: lowercase;
+     font-family: 'Open Sans', sans-serif;
+
+}
+
+.logoContao {
+
+  position: absolute;
+  top:200px;
+  left: 52%;
+
+}
+
+#impress {
+      position: absolute;
+      top: 250px;
+      right: 300px;
+      width: 330px;
+      height: 170px;
+      color: #00bffF;
+      border: 5px solid #00bffF;
+      border-radius: 10px;
+      padding: 11px;
+
+
+}
+
+
+
+
+div.kreis {
+
+      position: absolute;
+      bottom: 80px;
+      left: 50px;
+
+      border-radius: 50%;
+      border: 2px solid black;
+      height: 200px;
+      width: 200px;
+      background-image: url(http://www.testolly.de/img/Mayen.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 296px;
+}
+
+.seitentitel {
+  
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 100px;
+    text-transform: uppercase;
+
+
+}
+
+#home_button {
+
+    padding-left: 90%;
+    margin: 0;
+
+
+}
+
+#wrapper {
+
+        margin-top: 60px;
+        padding-left: 34%;
+
+}
+
+.but_oh { 
+
+      margin-left: 25%;
+}
+.middle {
+      color:;
+}
+
+
+
+/*----------------FOOTER-----------------------------------------------------*/
+
+#footer {
+        position: fixed;
+        width: 100%;
+        height: 180px;
+        left: 0;
+        bottom: 0;        
+        background: #1e90ff;
+}
+
+
+#SocialMediaBox {
+
+        width: 500px;
+        margin-left: 36%;
+        margin-top: 45px;
+        color: white;
+
+}
+
+@media (max-width: 1100px)
+#SocialMediaBox {
+        width: 300px;
+        margin-top: 20px;
+}
+
+#SocialMediaBox i {
+
+        padding: 0px 14px;
+        color: #fff;
+       
+}
+
+@media (max-width: 1100px)
+#SocialMediaBox i {
+        padding: 0px 7px;
+}
+
+        
+
+
+
+  

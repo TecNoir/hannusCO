@@ -1,0 +1,78 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Contact</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+</head>
+
+<body>
+			<div id="cssmenu">
+				<h3 class="seitentitel">Contact</h3>
+				 <div id='home_button'>
+         			<a href="index.html"><i class="fa fa-home fa-3x"></i></a>
+        		</div>
+  		 	</div>
+
+   <div id="wrapper">
+   
+
+
+		<form name="contact" action="contact.php" method="post">
+			<fieldset class="col-xs-4">
+				<legend>Ihre Nachricht an uns</legend>
+					<input type="nachname" class="form-control" id="name"
+					name="Nachname" placeholder="Nachname" />
+					<input type="vorname" class="form-control" id="vorname"
+					name="Vorname" placeholder="Vorname" />
+					<input type="firma" class="form-control" id="firma"
+					name="Firma" placeholder="Firma" />
+					<input type="ort" class="form-control" id="ort"
+					name="Ort" placeholder="Ort" />
+					<input type="email" class="form-control" id="email" name="Email"
+					placeholder="Email" / >
+					<hr />
+					<textarea name="Eingabefeld" rows="16" cols="50"
+					maxlength="500" wrap="soft" placeholder="Nachricht">
+					</textarea>
+					<hr />
+					<button type="button" class="btn btn-default but_oh" value="Absenden" 
+					onclick="sendForm()">Abesenden</button>
+					<button type="button" class="btn btn-default" value="Zurücksetzen" 
+					onclick="clearForm()">Zurücksetzen</button>
+			</fieldset>	
+		</form>
+	</div>
+	
+	<div id="impress">
+		<h3>Email:<a href="mailto:oliver@hannus.co"> oliver@hannus.co</a></br>
+		    Phone: +49 (0)171 6066424</h3>
+	</div>
+	
+
+	<script type="text/javascript">
+
+		function sendForm() {
+
+			window.document.forms[0].submit();
+		};
+
+		function clearForm() {
+
+			window.document.forms[0].reset();
+
+		}
+
+		window.document.forms[0].action = "contact.php";
+
+
+	</script>
+</body>
+</html>
