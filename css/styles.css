@@ -33,14 +33,14 @@
   position: relative;
   
 }
-@media only screen and (max-width: 1380px)
+@media only screen and (max-width: 1380px) {
 #cssmenu ul li a {
   padding: 15px 12px;
   font-weight: 300;
   font-size: 16px;
   
 }
-
+}
 
 
 #cssmenu ul li a:hover {
@@ -330,10 +330,11 @@ div.kreis {
 
 }
 
-@media only screen and (max-width: 1380px)
+@media only screen and (max-width: 1380px) {
 #SocialMediaBox {
         width: 300px;
         margin-top: 20px;
+}
 }
 
 #SocialMediaBox i {
@@ -343,9 +344,10 @@ div.kreis {
        
 }
 
-@media only screen and (max-width: 1380px)
+@media only screen and (max-width: 1380px) {
 #SocialMediaBox i {
         padding: 0px 7px;
+}
 }
 
         
