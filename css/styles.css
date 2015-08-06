@@ -35,9 +35,9 @@
 }
 @media only screen and (max-width: 1380px) {
 #cssmenu ul li a {
-  padding: 15px 12px;
-  font-weight: 300;
-  font-size: 16px;
+  padding: 20px 15px;
+  font-weight: 400;
+  font-size: 20px;
   
 }
 }
