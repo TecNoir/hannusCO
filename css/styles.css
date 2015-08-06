@@ -345,10 +345,14 @@ div.kreis {
 }
 
 @media only screen and (max-width: 1380px) {
-#SocialMediaBox i .fa-5x {
+#SocialMediaBox i  {
         padding: 0px 7px;
-        font-size: 2em;
 }
+
+.fa-5x {
+  font-size: 2em;
+}
+
 }
 
         
