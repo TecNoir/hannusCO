@@ -315,9 +315,10 @@ div.kreis {
         background: #1e90ff;
 }
 
-@media only screen and (max-width: 1380px)
+@media only screen and (max-width: 1380px) {
 #footer {
         height: 60px;
+}
 }
 
 #SocialMediaBox {
