@@ -1,0 +1,8 @@
+user.name=Oliver Hannus
+user.email=oliver.hannus@gmx.de
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.OH.url=http://github.com/TecNoir/hannusCO.git
+remote.OH.fetch=+refs/heads/*:refs/remotes/OH/*
