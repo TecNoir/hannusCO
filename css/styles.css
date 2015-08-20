@@ -50,7 +50,7 @@
 #submenus ul {
   position: absolute;
   top: 100px;
-  left: 22%;
+  left: 21%;
   display: inline-block;
   width: 180px;
   height: 220px;
@@ -91,7 +91,7 @@
 #submenus ul.sub2 {
   position: absolute;
   top: 100px;
-  left: 32vw;
+  left: 31%;
   display: inline-block;
   width: 215px;
   height: 265px;
