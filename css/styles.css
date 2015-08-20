@@ -19,6 +19,8 @@
 
 #cssmenu ul li {
   display: inline-block;
+  position: relative;
+
 }
 
 #cssmenu ul li a {
@@ -30,7 +32,6 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 24px;
-  position: relative;
   
 }
 @media only screen and (max-width: 1380px) {
@@ -47,10 +48,10 @@
   color: #333333;
 }
 
-#submenus ul {
+#menu ul {
   position: absolute;
   top: 100px;
-  left: 21vw;
+  left: 0;
   display: inline-block;
   width: 180px;
   height: 220px;
@@ -73,9 +74,9 @@
   transition: opacity 1.0s ease .2s;
     }
 
-#submenus li:hover > ul {opacity: 1; visibility: visible;}
+#menu li:hover > ul {opacity: 1; visibility: visible;}
 
-#submenus ul li a {
+#menu ul li a {
   text-align: center;
   display: inline-block;
   padding: 20px 20px;
@@ -88,10 +89,10 @@
 }
 
 
-#submenus ul.sub2 {
+#menu ul.sub2 {
   position: absolute;
   top: 100px;
-  left: 31vw;
+  left: 0;
   display: inline-block;
   width: 215px;
   height: 265px;
@@ -101,12 +102,12 @@
   opacity: 0;
   background: #4682b4;
 }
-#submenus.sub2 li:hover > ul {opacity: 1;}
+#menu.sub2 li:hover > ul {opacity: 1;}
 
-#submenus ul.sub3 {
+#menu ul.sub3 {
   position: absolute;
   top: 100px;
-  left: 40.5vw;
+  left: 0;
   display: inline-block;
   width: 210px;
   height: 220px;
@@ -116,12 +117,12 @@
   opacity: 0;
   background: #4682b4;
 }
-#submenus.sub3 li:hover > ul {opacity: 1;}
+#menu.sub3 li:hover > ul {opacity: 1;}
 
-#submenus ul.sub4 {
+#menu ul.sub4 {
   position: absolute;
   top: 100px;
-  left:52vw;
+  left: 0;
   display: inline-block;
   width: 210px;
   height: 220px;
@@ -131,12 +132,12 @@
   opacity: 0;
   background: #4682b4;
 }
-#submenus.sub4 li:hover > ul {opacity: 1;}
+#menu.sub4 li:hover > ul {opacity: 1;}
 
-#submenus ul.sub5 {
+#menu ul.sub5 {
   position: absolute;
   top: 100px;
-  left:65vw;
+  left: 0;
   display: inline-block;
   width: 270px;
   height: 220px;
@@ -146,7 +147,7 @@
   opacity: 0;
   background: #4682b4;
 }
-#submenus.sub5 li:hover > ul {opacity: 1;}
+#menu.sub5 li:hover > ul {opacity: 1;}
 
 
 .full-width {
