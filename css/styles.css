@@ -39,9 +39,10 @@
   padding: 20px 15px;
   font-weight: 400;
   font-size: 20px;
-  
 }
 }
+
+@
 
 
 #cssmenu ul li a:hover {
@@ -282,11 +283,13 @@ div.kreis {
 
 #home_button {
 
-    padding-left: 90%;
-    margin: 0;
-
-
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    
 }
+
+a:visited{color: #fff;}
 
 #wrapper {
 
