@@ -291,6 +291,17 @@ div.kreis {
 
 a:visited{color: #fff;}
 
+.yo {
+  color: red;
+  font-weight: 900;
+}
+
+.ibm {
+  position: relative;
+  bottom: 240px;
+  left: 700px;
+}
+
 #wrapper {
 
         margin-top: 60px;
