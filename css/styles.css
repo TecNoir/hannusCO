@@ -39,6 +39,7 @@
   padding: 20px 15px;
   font-weight: 400;
   font-size: 20px;
+  padding-top: 35px;
 }
 }
 
@@ -167,11 +168,11 @@
 
       max-width: 1500px;
       width: 65vw;
-      margin: 0 auto;
+      margin: 0 45px;
       padding: 2em;
       color: #4682b4;
       font-family: 'Oswald', sans-serif;
-      font-size: 1.4em;
+      font-size: 1em;
       line-height: 1.6;
 }
 @media (max-width: 1100px)
@@ -305,8 +306,8 @@ a:visited{color: #fff;}
 @media only screen and (max-width: 1380px) {
 .ibm {
   position: absolute;
-  bottom: 140px;
-  right: 150px;
+  bottom: 100px;
+  right: 250px;
 }
 }
 
@@ -359,6 +360,7 @@ a:visited{color: #fff;}
 #SocialMediaBox {
         width: 300px;
         margin-top: 20px;
+        margin-left: 43%;
 }
 }
 
