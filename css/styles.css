@@ -230,7 +230,18 @@ h1 {
     margin-bottom: 10px;
 
 }
+@media only screen and (max-width: 1380px) {
+#blog {
+  
+    position: absolute;
+    top: 125px;
+    left: 250px;
+    height: 150px;
+    width: 500px;
+    margin-bottom: 10px;
 
+}
+}
 .blogLink {
 
     position: absolute;
@@ -241,7 +252,18 @@ h1 {
     color: #fff;
     
 }
+@media only screen and (max-width: 1380px){
+.blogLink {
 
+    position: absolute;
+    top: 260px;
+    right:150px;
+    border: 2px solid #00bffF;
+    background-color: red;
+    color: #fff;
+    
+}
+}
 .pdf_link {
     
       color: #00bffF;
@@ -268,10 +290,22 @@ h1 {
       border: 5px solid #00bffF;
       border-radius: 10px;
       padding: 11px;
-
-
 }
 
+@media only screen and (max-width: 1380px) {
+#impress {
+      position: absolute;
+      top: 250px;
+      right: 100px;
+      width: 330px;
+      height: 170px;
+      color: #00bffF;
+      border: 5px solid #00bffF;
+      border-radius: 10px;
+      padding: 11px;
+
+}
+}
 
 
 
