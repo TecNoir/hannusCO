@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+   @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 
 #cssmenu {
@@ -229,6 +229,7 @@ h1 {
     width: 500px;
     margin-bottom: 10px;
 
+
 }
 @media only screen and (max-width: 1380px) {
 #blog {
@@ -247,9 +248,11 @@ h1 {
     position: absolute;
     top: 260px;
     right:320px;
-    border: 2px solid #00bffF;
+    border: 4px solid #00bffF;
     background-color: red;
     color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
     
 }
 @media only screen and (max-width: 1380px){
@@ -272,11 +275,16 @@ h1 {
 
 }
 
-.logoContao {
+.c_logo {
 
   position: absolute;
-  top:200px;
-  left: 52%;
+  top:250px;
+  left: 40%;
+
+}
+
+.n_logo {
+
 
 }
 
