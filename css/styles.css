@@ -278,9 +278,22 @@ h1 {
 .c_logo {
 
   position: absolute;
-  top:250px;
-  left: 40%;
+  top: 250px;
+  left: 3%;
+}
 
+.n_logo {
+
+  position: absolute;
+  top: 300px;
+  left: 13%;
+}
+
+.k_logo {
+
+  position: absolute;
+  top: 420px;
+  left: 25%;
 }
 
 #scshBox {
@@ -327,6 +340,17 @@ h1 {
     right: 42px;
     width:350px;
     height: 145px;
+}
+
+.quotes {
+
+  float: right;
+  position: absolute;
+  top: 130px;
+  right: 200px;
+  width: 300px;
+  height: 300px;
+
 }
 
 
