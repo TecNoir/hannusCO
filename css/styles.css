@@ -344,11 +344,13 @@ h1 {
 
 .quotes {
 
-  float: right;
   position: absolute;
-  top: 130px;
-  right: 200px;
-  width: 300px;
+  top: 140px;
+  right: 400px;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
   height: 300px;
 
 }
