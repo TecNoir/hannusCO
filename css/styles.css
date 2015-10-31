@@ -27,7 +27,7 @@
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 30px 25px;
+  padding: 30px 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -112,7 +112,7 @@
   left: 0;
   display: inline-block;
   width: 210px;
-  height: 220px;
+  height: 180px;
   margin: 0;
   padding: 0;
 
@@ -345,7 +345,7 @@ h1 {
 .quotes {
 
   position: absolute;
-  top: 140px;
+  top: 150px;
   right: 400px;
 
   display: flex;
@@ -353,6 +353,40 @@ h1 {
   flex-basis: 300px;
   height: 300px;
 
+}
+
+.webentwicklung {
+
+  position: relative;
+  bottom: 150px;
+  left: 42%;
+  line-height: 1.6;
+  font-size: 14px,
+
+}
+
+.frameworks {
+
+  padding: 0 7px;
+  margin: 0;
+}
+
+.eff_pix {
+
+  position: relative;
+  top: 40px;
+  left: 25px;
+  width: 700px;
+  height: 365px;
+  outline: 2px solid grey;
+
+}
+
+.eff_txt {
+
+  position: relative;
+  top: -300px;
+  left: 40%;
 }
 
 
