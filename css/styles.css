@@ -386,7 +386,16 @@ h1 {
 
   position: relative;
   top: -300px;
-  left: 40%;
+  left: 42%;
+  color: #4682b4;
+  width: 900px;
+  height:400px;
+
+}
+
+.effect_def {
+
+  line-height: 2.0;
 }
 
 
